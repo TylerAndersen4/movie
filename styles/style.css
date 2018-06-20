@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+
+/*html {
+  font-size: 10px;
+}*/
+
+a {
+  color: white!important;
+}
+
+.header1 {
+  background-image: url("../images/hollywood.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*Adjust for Media */
+.header-body {
+  padding: 8rem 0rem 8rem 0rem;
+  width: 90%;
+  margin: auto;
+}
+
+.header-body > h1 {
+  font-weight: 400;
+  font-size: 5rem;
+  color: white;
+}
+
+.header-body > h2 {
+  font-weight: lighter;
+  color: white;
+}
+
+.quote1 {
+  background-color: black;
+}
+
+/*Adjust for Media */
+.quote-body {
+  padding: 5rem 0rem 5rem 0rem;
+  width: 90%;
+  margin: auto;
+}
+
+.quote-body > h2 {
+  color: white;
+  font-weight: 200;
+  padding-bottom: 3rem;
+}
+
+.quote-body > h2:nth-child(3) {
+  padding-bottom: 0rem;
+}
+
+/*Adjust for Media */
+.awards {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+img[src="images/surf.jpg"] {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+img[src="images/tribeca.jpg"], img[src="images/sundance.jpg"], img[src="images/cannes.jpg"] {
+  width: 70%;
+  margin: auto;
+  max-width: 13rem;
+  min-width: 7rem;
+}
+
+/*Adjust for Media */
+.synopsis-body {
+  padding: 5rem 0rem 5rem 0rem;
+  width: 90%;
+  margin: auto;
+}
+
+.synopsis-body > h3 {
+  padding-bottom: 1rem;
+}
+
+.button {
+  padding-top: 3rem;
+}
+
+.button-custom {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.testimonials {
+  background-image: url("../images/la-night.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+/*Adjust for Media */
+.testimonials-body {
+  padding: 6rem 0rem 6rem 0rem;
+  text-align: center;
+}
+
+.testimonials-body > h4 {
+  color: white;
+  font-weight: 200;
+  font-size: 2.5rem;
+}
+
+.learn-more-body {
+  padding: 5rem 0rem 5rem 0rem;
+  width: 90%;
+  margin: auto;
+}
+
+.text1 {
+  padding-bottom: 5rem;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.button-custom {
+  font-size: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.fa-facebook, .fa-instagram, .fa-imdb {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.social {
+  max-width: 40%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.social1 {
+  padding-top: 3rem;
+}
+
+/*XS devices*/
+@media (max-width: 576px) {
+
+  .header-body > h1 {
+    font-size: 3rem;
+  }
+
+  .header-body > h2 {
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  .header-body {
+    padding: 6rem 0rem 6rem 0rem;
+    width: 90%;
+  }
+
+  .quote-body {
+    padding: 3rem 0rem 3rem 0rem;
+    width: 90%;
+  }
+
+  .awards {
+    padding-bottom: 3rem;
+  }
+
+  .synopsis-body {
+    padding: 3rem 0rem 3rem 0rem;
+    width: 90%;
+  }
+
+  .testimonials-body {
+    padding: 3rem 0rem 3rem 0rem;
+  }
+
+
+}
+
+/*S Devices*/
+@media (min-width: 576px) {
+
+}
+
+/*M Devices*/
+@media (min-width: 768px) {
+
+
+}
+
+/*L Devices*/
+@media (min-width: 992px) {
+
+  .header-body {
+    width: 80%;
+  }
+
+  .quote-body {
+    width: 80%;
+  }
+
+  .synopsis-body {
+    width: 80%;
+  }
+
+}
+
+/*XL Devices*/
+@media (min-width: 1200px) {
+  .header-body {
+    width: 70%;
+  }
+
+  .quote-body {
+    width: 70%;
+  }
+
+  .synopsis-body {
+    width: 70%;
+  }
+
+}
